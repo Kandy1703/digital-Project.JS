@@ -1,0 +1,196 @@
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .main-container{
+        flex-direction: column;
+    }
+    .container-1{
+        flex-direction: column;
+        margin: 20px;
+        
+     }
+      .container-2{
+        margin: 20px;
+}
+    .timecard{
+        min-width: 300px;
+        position: absolute;
+        top: 43%;
+    }
+    .card label{
+        width: 100px;
+    }
+    .card select{
+        position: absolute;
+        /* right: 0px; */
+    }
+    .day-status{
+        min-width: 300px;
+        max-width: auto;
+        position: absolute;
+        top: 114%;
+    }
+    .alarm-parent{
+        position: absolute;
+        top: 125%;
+    }
+    button{
+        min-width: 100px;
+    }
+    .day-routin{
+        min-width: 150px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .time-card{
+        width: 300px;
+        position: absolute;
+        bottom: 210%
+    }
+    span{
+        font-size: .6em;
+        padding: 8px 16px 16px 16px;
+    }
+    span:nth-child(2)::before{
+        content: 'Hrs';
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+    span:nth-child(4)::before{
+        content: 'Min';
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+    span:nth-child(6)::before{
+        content: 'Sec';
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+    .box1{
+        width: 200px;
+    }
+    .box2{
+        width:  130px;
+    }
+    .grab-breakfast{
+        position: absolute;
+        bottom: 20%;
+    }
+    .grab-breakfast h3{
+        width: 300px;
+        font-size: 1rem;
+    }
+    .girl-pic{
+        position:absolute;
+        top: 500%;
+    }
+    .girl-pic img{
+        width: 300px;
+    }
+} 
+
+/* @@@@@@@@@@@@@@@@@@@@@@ tablet query */
+
+@media screen and (max-width: 1180px) and (min-width: 820px){
+    .main-container{
+        height: 150vh;
+        flex-direction: column;
+    }
+    .container-2{
+        margin: 40px;
+    }
+    .timecard{
+        width: auto;
+        
+    }
+    .card{
+        margin: 20px;     
+    }
+    .card label{
+        font-size: 1.5rem;
+        width: 30vw;
+    }
+    .card select{
+        height: 40px;
+        font-size: 1.5rem;
+    }
+    .day-status{
+        min-width: 90vw;
+        position: absolute;
+        top: 33%;
+        font-size: 1rem;
+    }
+    .alarm-parent{
+        position: absolute;
+        top: 40%;
+    }
+    button{
+        width: 30vw;
+        height: 60px;
+        font-size: 1.2rem;
+        position: relative;
+        top: 71%;
+    }
+    .day-routin{
+        width: 39vw;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .time-card{
+        min-width: 100%;
+        position: absolute;
+        top: 70%;
+    }
+.grab-breakfast {
+    position: absolute;
+    top: 280%;
+   
+}
+.grab-breakfast h3{
+    min-width: 90vw;
+    font-size: 1.5rem;
+}
+.girl-pic {
+    position: absolute;
+    top: 450%;
+}
+.girl-pic img{
+    min-width: 90vw;
+}
+span{
+    font-size: 1.2rem;
+}
+span:nth-child(2)::before{
+    content: 'Hrs';
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -0.9%;
+
+}
+span:nth-child(4)::before{
+    content: 'Min';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -1%;
+}
+span:nth-child(6)::before{
+    content: 'Sec';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 0;
+}
+}

@@ -1,0 +1,220 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #5F0089;
+  background-size: cover;
+  background-position: 0%;
+}
+.main-container{
+   display: flex;
+   display: wrap;
+   
+   /* justify-content: start; */
+}
+ .container-1{
+   display: flex;
+   display: wrap;
+   flex-direction: column;  
+   margin: 40px;
+}
+.clockLogo img{
+    height: 60px;
+}
+.timecard{
+    width: 35vw;
+    background-color: white;
+    border-radius: 20px;
+    color: #5F0089;
+    position: relative;
+    top: 20px;
+    
+}
+.card{
+    margin: 10px; 
+    position: relative;  
+    left: 0;
+    top: 0;
+}
+.card img{
+    
+
+
+}
+.card label{
+    font-size: 1em;
+    width: 10vw;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px; 
+    left: 50px;
+
+       
+}
+.card select{
+    height: 30px;  
+    border: 1px solid rgb(129, 64, 64);
+    position: absolute;
+    bottom: 8px;
+    right: 10%;
+}
+.day-status{
+    width: 35vw;
+    background-color: #8E53F0;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 53%;
+}
+.day-status h3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+.alarm-parent{
+    display: flex;
+    /* display: wrap; */
+}
+
+button{
+    width: 10vw;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient(to right, #8E53F0,#FC5EFF);
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 70%;
+}
+button:hover{
+    background-image: linear-gradient(to right, #FC5EFF,#8E53F0);
+    color: #5F0089;
+}
+.day-routin{
+    width: 14vw;
+    height: auto;
+    background-color: #8E53F0;
+    color: #FC5EFF;
+    border-radius: 10px;
+    font-size: .8em;
+    position: relative;
+    left: 30%;
+    top: 79%;
+    padding: 10px;
+}
+.container-2{
+    position: relative;
+    top: 80px;
+}
+.live-time{
+   
+}
+.time-card{
+    display: flex;
+    justify-content: center;
+    display: wrap;
+    align-items: center;
+    width: 40vw;
+    height: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    color: #9140B5;
+    z-index: 6;
+} 
+span{
+    display: inline;
+    display: wrap;
+    padding: 10px 20px 20px 20px;
+    font-size: .6em;
+    border-radius: 10px;
+}
+span:nth-child(2){
+    background-color: #FC5EFF;
+}
+span:nth-child(2)::before{
+    content: 'Hrs';
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: -1%;
+
+}
+span:nth-child(4){
+    background-color: #FC5EFF;
+}
+span:nth-child(4)::before{
+    content: 'Min';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: -1%;
+}
+span:nth-child(6){
+    background-color: #FC5EFF;
+}
+span:nth-child(6)::before{
+    content: 'Sec';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 0;
+}
+span:nth-child(7){
+    background-color: #FC5EFF;
+    position: relative;
+    left: 10px;
+    padding: 15px;
+}
+.time-card .colon1{
+    font-size: 50px;
+    text-align: center;
+    z-index: 9;
+}
+.box1{
+    width: 30vw;
+    height: 20px;
+    background-color: #F6E2FF;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    z-index: -1;
+    
+}
+.box2{
+    width: 25vw;
+    height: 20px;
+    background-color: #F6E2FF;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    z-index: -1;
+
+}
+.grab-breakfast h3{
+    width: 40vw;
+    background-color: white;
+    color: #6E54EC;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.girl-pic img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 300px;
+    border-radius: 10px;
+}
+
